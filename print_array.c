@@ -24,9 +24,9 @@ printf("\n");
 
 void swap(int *a, int *b)
 {
-  int tmp;
+int tmp;
 
-  tmp = *b;
-  *b = *a;
-  *a = tmp;
+tmp = *b;
+*b = *a;
+*a = tmp;
 }
